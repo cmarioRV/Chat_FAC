@@ -1711,7 +1711,7 @@
 				TargetAttributes = {
 					8DC5E3101A25A2F200331176 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = MUL3D2E945;
+						DevelopmentTeam = 6AZVN24LN2;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
 								enabled = 1;
