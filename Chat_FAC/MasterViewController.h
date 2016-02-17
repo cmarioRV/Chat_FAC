@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface MasterViewController : UITableViewController
+
+@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate,UIGestureRecognizerDelegate> {
+    //NSString *password;
+    //NSString *user;
+    NSFetchedResultsController *fetchedResultsController;
+        // NSFetchedResultsController *list;
+}
+
+//@property (nonatomic) NSString *password;
+//@property (nonatomic) NSString *user;
+@property (nonatomic) NSMutableArray *sectionArray;
+@property (nonatomic) NSMutableArray *rosterInSection;
 
 
 @end
